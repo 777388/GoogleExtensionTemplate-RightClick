@@ -1,7 +1,7 @@
 chrome.contextMenus.create({
-    id:"",
-    title:"",
-    contexts:""
+    id: "",
+    title: "",
+    contexts: ["selection"]
 })
 
 chrome .contextMenus.onClicked.addListener(function (info, tab) {
